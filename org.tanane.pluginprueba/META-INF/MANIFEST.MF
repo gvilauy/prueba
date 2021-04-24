@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PluginPrueba
+Bundle-SymbolicName: org.tanane.pluginprueba;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.tanane.pluginprueba
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="8.2.0",
+ org.adempiere.plugin.utils;bundle-version="8.2.0"
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
+Service-Component: META-INF/defaultmodelfactory.xml,
+ defaultdocfactory.xml
